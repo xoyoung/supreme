@@ -1,0 +1,16 @@
+/* p1_tab.css */
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+
+
+/* #footBox--------------*/
+#footBox{height: 340px; padding-top: 40px;}
+.fnb{width: 380px;}
+.fnb>ul>li{font-size: 0.8rem; line-height: 30px;}
+.fnb_wrap>form{width: 350px;}
+.costomer>dt{font-size: 0.85rem;}
+.costomer>dd{font-size: 0.75rem;}
+.addr{width: 90%; max-width: 700px; height: 30px; margin: auto; margin-top: 10px;}
+.addr>p{height: 50%; font-size: 0.7rem; float: none; margin: auto;}
+.copy>p{font-size: 0.7rem;}
+}

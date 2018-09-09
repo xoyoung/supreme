@@ -1,0 +1,48 @@
+/* p1_tab.css */
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+
+
+
+/* #adBox */
+#adBox{height: 620px;}
+.slide_wrap>ul>li>a{
+background-position: 62% bottom;}
+.slide_wrap>ul>li>a>span{ 
+  background-size: 320px;
+  background-position: center 86%;}
+
+/* #newBox */
+#newBox{position: relative;
+  height: 700px; box-sizing: border-box; padding-bottom: 80px;}
+.arrow{display: none;}
+.new_wrap{ width: 420px; height: 80%; margin: auto; padding-top:50px;}
+.new_wrap>.new_indicator{display: block; 
+  bottom: -54px; margin-left: -25px;
+  width:50px; height: 20px;}
+
+.new_slide_con{width: 200%;}
+.new_con{width: 50%;}
+.list{width: 44%; height: 44%; margin: 3%;}
+
+
+
+
+/* #bannerBox */
+ #bannerBox{height: auto;}
+.banner_wrap{height: auto;}
+.banner_con{width: 100%; height: auto;}
+.banner{width: 100%;  height:84.635416vw; max-height: 650px; margin-bottom: 2vw; float: none;}
+.banner_con>div:nth-of-type(2n),
+.banner_con>div:last-of-type{height:47.177083vw; max-height: 370px;
+float: none; margin-bottom: 2vw;}
+.banner_wrap>div:last-of-type{height:61.197916vw; max-height: 470px; margin-top: 0;}
+
+/* insta */
+.insta_wrap{width: 390px; height: auto;
+box-sizing: border-box; padding-top: 50px;
+margin: auto;}
+.insta_wrap>ul>li{width: 115px; height: 115px;
+  float: left; margin: 5px;}
+
+ }

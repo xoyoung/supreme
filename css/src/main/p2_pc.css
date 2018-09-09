@@ -1,0 +1,19 @@
+/* p1_pc.css*/
+
+@media screen and (min-width: 769px) and (max-width: 1366px){
+
+
+.new_wrap{width: 70.278184vw; min-width: 710px;}
+.arrow{margin-left: -38.067349vw; width:76.134699vw; min-width: 786px;}
+
+
+
+
+/* #eventBox-------------*/
+
+.event_con{ min-width: 676px; max-width: 1000px;}
+.news>a{background-size: 354px;}
+.news_con2 dl{margin-top: 20px;}
+
+
+ }

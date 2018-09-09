@@ -1,0 +1,19 @@
+/* main.css */
+
+@import url("./all/headBox.css");
+@import url("./all/headBox/p2_mobile.css");
+@import url("./all/headBox/p2_tab.css");
+@import url("./all/headBox/p2_pc.css");
+@import url("./all/headBox/p2_pcfull.css");
+
+@import url("./all/footBox.css");
+@import url("./all/footBox/p2_mobile.css");
+@import url("./all/footBox/p2_tab.css");
+@import url("./all/footBox/p2_pc.css");
+@import url("./all/footBox/p2_pcfull.css");
+
+@import url("./p2_supreme_main.css");
+@import url("./main/p2_mobile.css");
+@import url("./main/p2_tab.css");
+@import url("./main/p2_pc.css");
+@import url("./main/p2_pcfull.css");

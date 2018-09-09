@@ -1,0 +1,53 @@
+/* footBox.css */
+
+/* #footBox--------------*/
+#footBox{width: 100%; height: 340px; background-color: #1F1D1D;
+box-sizing: border-box; padding-top: 40px;}
+.fnb_wrap{width: 90%; height: 90%; margin: auto;}
+.fnb{width: 400px; height: 30px; margin: auto; margin-bottom: 20px;}
+.fnb>ul{width: 100%; height: 100%;}
+.fnb>ul>li{width: 25%; height: 100%; float: left;
+          text-align: center; font-size: 0.9rem;
+          line-height: 30px;}
+.fnb>ul>li>a{color: #ddd;}
+.fnb>ul>li>a:hover {color: #fff; text-decoration: underline;}
+.fnb_wrap>form{width: 410px; height: 30px; margin: auto;}
+.fnb_wrap>form>fieldset{width: 100%; height: 100%;}
+.fnb_wrap>form>fieldset>input{float: left; width: 85%; height: 100%;
+border: 0;}
+.fnb_wrap>form>fieldset>div{float: left;
+  width: 15%; height: 100%; background-color: #333;}
+.fnb_wrap>form>fieldset>div>button{
+  width: 100%; height: 100%;
+  background-image: url(../../../img/footBox/search.png);
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center;}
+.social{width: 300px; height: 40px; margin: auto; margin-top: 24px;}
+.social>ul{width: 100%; height: 100%;}
+.social>ul>li{width: 17.5%; height: 100%; float: left;
+  margin-right: 10%;}
+.social>ul>li:last-child{margin-right: 0;}
+.social>ul>li>a{display: block; width: 100%; height: 100%;
+background-size: 50%;
+background-position: center;
+background-repeat: no-repeat;}
+.s_icon1>a{background-image: url(../../../img/footBox/Instagram1.png);}
+.s_icon2>a{background-image: url(../../../img/footBox/Facebook2.png);}
+.s_icon3>a{background-image: url(../../../img/footBox/Twitter3.png);}
+.s_icon4>a{background-image: url(../../../img/footBox/Google_Plus4.png);}
+
+.s_icon1>a:hover{background-image: url(../../../img/footBox/insta_h.png);}
+.s_icon2>a:hover{background-image: url(../../../img/footBox/facebook_h.png);}
+.s_icon3>a:hover{background-image: url(../../../img/footBox/twitter_h.png);}
+.s_icon4>a:hover{background-image: url(../../../img/footBox/google_h.png);}
+.costomer{width: 350px; height: 40px; margin: auto; color: #ddd; margin-top: 30px;}
+.costomer>dt{width: 100%; height: 50%; font-size: 0.9rem; text-align: center;}
+.costomer>dd{width: 100%; height: 50%; font-size: 0.8rem; text-align: center;}
+.addr{width: 100%; max-width: 700px; height: 15px; margin: auto; margin-top: 10px;}
+.addr>p{height: 100%; font-size: 0.7rem; color: #aaa; text-align: center; float: left;}
+.addr>p:first-child{width: 264px;}
+.addr>p:last-child{width: 400px;}
+.copy{width: 95%; height: 20px; margin: auto;}
+.copy>p{width: 100%; text-align: center;
+  font-size: 0.8rem; color: #aaa;}

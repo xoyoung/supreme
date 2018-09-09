@@ -1,0 +1,26 @@
+/* p1_mobile.css*/
+
+@media screen and (max-width: 480px){
+/* min width 280px 설정하기*/
+
+
+/* #footBox--------------*/
+#footBox{height: 340px; padding-top: 30px;}
+.fnb{width: 100%;  max-width: 400px; height: 30px; margin: auto; margin-bottom: 20px;}
+.fnb>ul>li{font-size: 0.7rem; line-height: 30px;}
+
+.fnb_wrap>form{width: 95%; max-width: 350px;}
+.fnb_wrap>form>fieldset>div>button{background-size: 20px;}
+
+.social{width: 260px;}
+.social>ul{width: 100%;}
+.social>ul>li{width: 46px; margin-right: /*5vw*/9%;}
+.costomer{width: 95%;}
+.costomer>dt{font-size: 0.8rem; text-align: center;}
+.costomer>dd{font-size: 0.7rem; text-align: center;}
+.addr{width: 100%; max-width: 700px; height: 30px; margin: auto; margin-top: 16px;}
+.addr>p{height: 50%; font-size: 0.64rem; float: none; margin: auto;}
+.addr>p:last-child{width: 90%; height: 24px;}
+.copy{margin-top: 10px;}
+.copy>p{font-size: 0.64rem;}
+ }

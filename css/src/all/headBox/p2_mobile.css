@@ -1,0 +1,108 @@
+/* p1_mobile.css*/
+
+@media screen and (max-width: 480px){
+/* min width 280px 설정하기*/
+
+body,html{min-width: 280px;}
+/* #headBox----------*/
+#headBox{top: 0; height: 50px;}
+
+#headBox>.head_wrap{width:94%; padding-top: 10px;  
+  box-sizing: border-box;}
+
+h1{position: absolute; left: 50%; top: 7px;
+  margin-left: -50px; margin-top: 0;
+ width: 100px; height: 36px;}
+
+
+
+ /*gnb*/
+.gnb_box{width: 40px; height: 34px; float: left;
+box-sizing: border-box; padding: 8px;
+margin-left: 0;}
+
+.ham_wrap{display: block;
+  width: 100%; height: 100%;}
+.ham_wrap>button{display: block;
+  width: 100%; height: 100%;
+ cursor: pointer;
+ background-image: url(../../../../img/headBox/ham.png);
+ background-size: 100%;
+background-repeat: no-repeat;}
+.ham_wrap>button:hover/*.ham_wrap>button:focus*/{
+  background-image: url(../../../../img/headBox/ham_h.png);
+}
+.ham_wrap>button.active{
+  background-image: url(../../../../img/headBox/ham_h.png);}
+
+.menu_bg{
+position: absolute; top: 50px; left: 0; z-index: 100;
+width: 100%; height: 440px;
+background-color: rgba(0,0,0,0.8);}
+
+.gnb{display: none; top: 70px; left: 0; bottom: auto;
+  margin-left: 0; z-index: 500;
+  margin-top: 50px;
+  width: 300px; height: auto;}
+.gnb>ul{width:100%; height: auto;}
+.gnb>ul>li{width: 100%; height:auto;
+  margin-right: 30px; float: none;
+  padding: 0;}
+.gnb>ul>li:last-child{margin-right: 0;}
+.gnb>ul>li>a{display: block; 
+  width: 100%; height:50px;
+  text-align: initial; line-height: 50px;
+  font-size: 1.04rem; font-weight: bold;
+  box-sizing: border-box; padding-left: 7%;
+  background-repeat: no-repeat;
+  background-position: 90% center;
+  background-size: 5%;}
+.gnb02>a,.gnb03>a,.gnb05>a{
+  background-image: url(../../../../img/headBox/plus.png);}
+.gnb>ul>li>.minus{background-image: url(../../../../img/headBox/minus.png);}
+
+.gnb>ul>li:hover .under_menu,
+.gnb>ul>li:focus .under_menu{display: none;}
+
+.gnb>ul>li:hover,.gnb>ul>li:focus{background-color: transparent;} 
+.gnb>ul>li:hover >a,.gnb>ul>li:focus >a{}
+.gnb>ul>.active {display: block;}
+.gnb>ul>li>a:focus{}
+
+/*under_menu*/
+.under_menu{width: 80%; position: static;}
+.under_menu>ul{width: 100%; padding-top: 3px;}
+.under_menu>ul>li{width: 100%; height: 40px;}
+  
+.under_menu>ul>li>a{display: block;
+width: 80%; margin:0; margin-left: 24px;
+font-size: 1rem; color: #fff;
+line-height: 40px;
+padding-left: 12%;}
+.under_menu>ul>li:last-child {padding-bottom: 20px;}
+.under_menu2 a{padding-left: 40px;}
+
+.unb{position: relative; float: left;}
+.unb_b{display: none;}
+.under_menu4{display:none; position: absolute;
+  top: 5px; right: 19%;
+  width: 280px;}
+.under_menu4>ul>li{float: left; position: relative; 
+  width: 24%; text-align: center;}
+.under_menu4>ul>li:after{content: " "; display: block;
+  position: absolute; top: 0; left: 92%;
+  width: 10px; height:100%;
+  background-image: url(../../../../img/headBox/slash.png);
+  background-position: right 45%;
+  background-size: 70%;
+  background-repeat: no-repeat;}
+.under_menu4>ul>li>a{display: inline; margin-left: 0;
+font-weight: normal; font-size: 0.9rem;}
+.under_menu4>ul>li:last-child{width: 28%;
+  padding-bottom: 0; background-image: none;}
+.under_menu4>ul>li:last-child:after{display: none;}
+.under_menu4>ul>li:last-child>a{padding-bottom: 0;
+padding-left: 0;}
+.cart{float: right; margin-top: 7px; margin-right: 8px;}
+
+ }
